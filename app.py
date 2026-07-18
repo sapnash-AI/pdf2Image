@@ -5,7 +5,7 @@ import streamlit as st
 from pdf2image import convert_from_bytes
 
 # Set up page config
-st.set_page_config(page_title="PDF to JPEG Converter", page_icon="📄", layout="centered")
+st.set_page_config(page_title="PWS-App-PDF to JPEG Converter", page_icon="📄", layout="centered")
 
 st.title("📄 PDF to JPEG Converter")
 st.write("Upload a multi-page PDF, convert all pages to JPEGs, and download them together in a single ZIP folder.")
